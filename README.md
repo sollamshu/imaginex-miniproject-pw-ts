@@ -51,3 +51,6 @@ Note: Use the Playwright extension for VS Code to simplify test debugging and ex
 
 # Reporting
 Run command after execution: npx playwright show-report
+
+# Notes
+I tried to create some negative test cases for the API part, but I saw that the endpoints, even when you pass invalid values, respond without errors.
