@@ -22,6 +22,6 @@ export default defineConfig({
       },
     },
   ],
-  reporter: [['html', { outputFolder: 'test-results' }]],
+  reporter: [['html', { outputFolder: 'playwright-report' }]],
   outputDir: 'test-results',
 });
