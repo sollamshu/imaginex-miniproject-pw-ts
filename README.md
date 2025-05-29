@@ -32,7 +32,7 @@ The framework is organized as follows:
 ### Clone the project
 
 ### Install dependencies
-Run command: npm install @playwright/test typescript ts-node @types/node dotenv
+Run command: npm install @playwright/test dotenv
 
 ### Create a .env file in the root directory with: (The file was kept in the repository on purpose)
 - BASE_URL=https://example.com. Replace https://example.com with your application's base URL.
