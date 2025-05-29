@@ -44,10 +44,10 @@ Run command: npx playwright install
 
 # Execution
 ## Execute all tests
-Run command: npx playwright test
+Run command headless: npx playwright test
+Run command headed: npx playwright test --headed
 
 Note: Use the Playwright extension for VS Code to simplify test debugging and execution.
 
-Reporting: Enable Playwright's built-in reporters (e.g., HTML reporter) in playwright.config.ts:
-
-reporter: [['html', { open: 'never' }]],
+# Reporting
+Run command after execution: npx playwright show-report

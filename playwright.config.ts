@@ -5,7 +5,7 @@ export default defineConfig({
   timeout: 30000,
   retries: 1,
   use: {
-    headless: false,
+    headless: true,
     actionTimeout: 10000,
     ignoreHTTPSErrors: true,
   },
@@ -22,4 +22,6 @@ export default defineConfig({
       },
     },
   ],
+  reporter: [['html', { outputFolder: 'test-results' }]],
+  outputDir: 'test-results',
 });
